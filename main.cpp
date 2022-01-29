@@ -26,7 +26,7 @@ public:
     {
         std::lock_guard<std::mutex> lk(m);
         s_shouldExit = true;
-        OMINFO << "Request to finish the openmonero received";
+        OMINFO << "Request to finish the openlozzax received";
         cv.notify_one();
     }
 
@@ -106,7 +106,7 @@ el::Loggers::setVerboseLevel(verbose_level);
 
 el::Loggers::reconfigureLogger(OPENMONERO_LOG_CATEGORY, defaultConf);
 
-OMINFO << "OpenMonero is starting";
+OMINFO << "OpenLozzax is starting";
 
 if (verbose_level > 0)
     OMINFO << "Using verbose log level to: " << verbose_level;

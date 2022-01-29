@@ -163,7 +163,7 @@ encrypt_payment_id(crypto::hash8 &payment_id,
 inline double
 get_xmr(uint64_t core_amount)
 {
-    return  static_cast<double>(core_amount) / 1e12;
+    return  static_cast<double>(core_amount) / 1e9;
 }
 
 array<size_t, 5>

@@ -1,14 +1,14 @@
 {
   "daemon-url" :
   {
-    "_comment" : "RPC urls to monero deamon",
-    "mainnet"  : "http://127.0.0.1:18081",
-    "testnet"  : "http://127.0.0.1:28081",
-    "stagenet" : "http://127.0.0.1:38081"
+    "_comment" : "RPC urls to lozzax deamon",
+    "mainnet"  : "http://127.0.0.1:11112",
+    "testnet"  : "http://127.0.0.1:22223",
+    "stagenet" : "http://127.0.0.1:33334"
   },
   "blockchain-path" :
   {
-    "_comment" : "if paths are empty, default Monero paths will be used",
+    "_comment" : "if paths are empty, default Lozzax paths will be used",
     "mainnet"  : "",
     "testnet"  : "",
     "stagenet" : ""

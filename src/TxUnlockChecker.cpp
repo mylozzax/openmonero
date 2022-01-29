@@ -15,7 +15,7 @@ TxUnlockChecker::get_v2height(network_type net_type) const
 {
     return net_type == TESTNET ?
                 624634 : net_type == STAGENET ?
-                   (uint64_t)-1 : 1009827;
+                   (uint64_t)-1 : 10;
 }
 
 uint64_t

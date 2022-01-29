@@ -7,7 +7,7 @@
 
 
 #undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "openmonero"
+#define MONERO_DEFAULT_LOG_CATEGORY "openlozzax"
 
 namespace xmreg
 {

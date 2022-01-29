@@ -1,16 +1,16 @@
 var config = {
-    apiUrl: "http://127.0.0.1:1984/",
-    mainnetExplorerUrl: "https://xmrchain.com/",
+    apiUrl: "http://api.lozzax.xyz/",
+    mainnetExplorerUrl: "https://blockexplorer.lozzax.xyz/",
     testnetExplorerUrl: "https://testnet.xmrchain.com/",
     stagenetExplorerUrl: "http://139.162.60.17:8082/",
-    nettype: 2, /* 0 - MAINNET, 1 - TESTNET, 2 - STAGENET */
-    coinUnitPlaces: 12,
+    nettype: 0, /* 0 - MAINNET, 1 - TESTNET, 2 - STAGENET */
+    coinUnitPlaces: 9,
     txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
     txCoinbaseMinConfirms: 60, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in Monero
-    coinSymbol: 'XMR',
-    openAliasPrefix: "xmr",
-    coinName: 'Monero',
-    coinUriPrefix: 'monero:',
+    coinSymbol: 'LOZZ',
+    openAliasPrefix: "lozz",
+    coinName: 'Lozzax',
+    coinUriPrefix: 'lozzax:',
     addressPrefix: 18,
     integratedAddressPrefix: 19,
     subAddressPrefix: 42,
